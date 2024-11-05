@@ -1,0 +1,11 @@
+void dibuja() {
+  background(0,0,0);
+  if (mousePressed) {
+    ellipse(mouseX, mouseY, 50,50);
+  background(0,255,255);
+  }  
+} 
+
+void main() {
+  animate(dibuja);
+}
